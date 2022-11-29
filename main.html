@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS pagination Example</title>
+<style>
+
+*{
+    background-color: aquamarine;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 25em;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Welcome to my website</h1>
+<p>This is an example of CSS Pagination. <br>When you will click <b>2</b> on pagination bar or click on the arrow, you will see another message.</p>
+
+<div class="pagination">
+  <a href="e.html">&laquo;</a>
+  <a href="test3.html" class="active">1</a>
+  <a href="a.html">2</a>
+  <a href="b.html">3</a>
+  <a href="c.html">4</a>
+  <a href="d.html">5</a>
+  <a href="e.html">6</a>
+  <a href="a.html">&raquo;</a>
+</div>
+
+</body>
+</html>
